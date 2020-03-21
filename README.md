@@ -15,7 +15,7 @@ General parts:
 1 Buzzer
 1 DC motor
 Male to male wires
-Femal to female wire
+Female to female wire
 Male to female wires
 Double side tape
 
@@ -34,7 +34,7 @@ Step 2: What Is Arduino?
 
 Ok , now you have the current location which was the major input. now you have to interface the Arduino with GPS before that you need to know about Arduino which is a microcontroller.
 
-Arduinoâ€™s processor basically uses the Harvard architecture where the program code and program data have separate memory. It consists of two memories- Program memory and data memory. The code is stored in the flash program memory, whereas the data is stored in the data memory. The Atmega328 has 32 KB of flash memory for storing code (of which 0.5 KB is used for the bootloader), 2 KB of SRAM and 1 KB of EEPROM and operates with a clock speed of 16MHz.
+Arduino’s processor basically uses the Harvard architecture where the program code and program data have separate memory. It consists of two memories- Program memory and data memory. The code is stored in the flash program memory, whereas the data is stored in the data memory. The Atmega328 has 32 KB of flash memory for storing code (of which 0.5 KB is used for the bootloader), 2 KB of SRAM and 1 KB of EEPROM and operates with a clock speed of 16MHz.
 
 The Arduino Uno power supply can be done with the help of a USB cable or an external power supply. The external power supplies mainly include AC to DC adapter otherwise a battery. The adapter can be connected to the Arduino Uno by plugging into the power jack of the Arduino board. Similarly, the battery leads can be connected to the Vin pin and the GND pin of the POWER connector. The suggested voltage range will be 7 volts to 12 volts.
 
@@ -117,4 +117,3 @@ Void Setup(): where you can initialize the Pin modes
 Void Loop(): The code inside this loop runs indefinitely.
 
 During explanation the variation maybe within a few meters so the last decimal itself to be considered so approximate the value given by the GPS to show variance in meters. and the values returned by the GPS are latitude, longitude, altitude, direction, no of satellites connected but here we need only longitude and latitude. they are in float datatype.
-
